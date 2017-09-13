@@ -7,7 +7,8 @@ public class Main{
           @Override
           public double evaluacion(double x) {
               //Funcion A Evaluar En Este Caso: (Sin X) * X
-              return Math.sin(x)*x;
+              //return Math.sin(x)*x;
+              return (x * Math.sin(x)) - 1;
           }
       };
 
