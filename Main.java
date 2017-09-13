@@ -20,8 +20,8 @@ public class Main{
         1 = X0
         4 = X1
         100 = Numero De iteraciones
-        1e-6 = Margen De Error
-        
+        1e-6 = Error Permitido
+
         */
         double Raiz = regla_falsa.raiz(funcion, 1, 4, 100, 1e-6);
         System.out.println("Raiz: " + Raiz);
